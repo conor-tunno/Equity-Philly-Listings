@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Property Listings Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="company-name">Listings</h1>
+    <span id="count" class="count"></span>
+    <button id="toggle-list" class="toggle-list" type="button">List</button>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <div class="filters">
+        <input id="search" type="search" placeholder="Search name or address…" aria-label="Search listings">
+        <div class="filter-row">
+          <select id="filter-type" aria-label="Property type"><option value="">All types</option></select>
+          <select id="filter-status" aria-label="Status"><option value="">Sale &amp; lease</option></select>
+        </div>
+      </div>
+      <ul id="list" class="list"></ul>
+    </aside>
+
+    <main id="map" class="map"></main>
+  </div>
+
+  <div id="message" class="message" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

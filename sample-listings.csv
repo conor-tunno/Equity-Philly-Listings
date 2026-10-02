@@ -1,0 +1,8 @@
+Property Name,Address,City,State,Zip,Latitude,Longitude,Property Type,Status,Price,Size (SF),Description,Image URL,Brochure URL,Broker,Broker Phone,Broker Email
+Market Street Office Suites,1500 Market St,Philadelphia,PA,19102,39.9524,-75.1666,Office,For Lease,$32.50/SF/yr,"12,400",Class A office space with skyline views and on-site parking.,,,Jane Smith,(215) 555-0101,jane@example.com
+Fishtown Corner Retail,1200 Frankford Ave,Philadelphia,PA,19125,39.9690,-75.1345,Retail,For Lease,$45/SF/yr,"2,800",High-visibility corner retail in a busy neighborhood corridor.,,,John Doe,(215) 555-0102,john@example.com
+Port Richmond Warehouse,3100 E Venango St,Philadelphia,PA,19134,39.9935,-75.0960,Industrial,For Sale,"$4,250,000","48,000","24' clear height, 4 dock doors, fenced yard.",,,Jane Smith,(215) 555-0101,jane@example.com
+Graduate Hospital Apartments,2100 South St,Philadelphia,PA,19146,39.9445,-75.1772,Multifamily,For Sale,"$3,100,000","14,200",12-unit apartment building with strong occupancy.,,,John Doe,(215) 555-0102,john@example.com
+Northern Liberties Mixed-Use,800 N 2nd St,Philadelphia,PA,19123,39.9628,-75.1405,Mixed-Use,For Sale,"$1,850,000","6,500",Ground-floor retail with three residential units above.,,,Jane Smith,(215) 555-0101,jane@example.com
+Kensington Development Lot,2600 Kensington Ave,Philadelphia,PA,19125,39.9880,-75.1290,Land,For Sale,"$975,000","22,000",Zoned lot ready for residential development.,,,John Doe,(215) 555-0102,john@example.com
+University City Lab Space,3700 Market St,Philadelphia,PA,19104,39.9566,-75.1960,Office,For Lease,$48/SF/yr,"9,000",Lab-ready office near universities and hospitals.,,,Jane Smith,(215) 555-0101,jane@example.com
